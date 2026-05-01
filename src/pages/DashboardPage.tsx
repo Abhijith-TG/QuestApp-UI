@@ -1,7 +1,7 @@
 
 function DashboardPage() {
   return (
-    <div>DashboardPage</div>
+    <div className="text-5xl">Dashboard</div>
   )
 }
 

@@ -18,7 +18,7 @@ function App() {
           <Route element={<ProctectedRoute/>}>
           <Route element={<Layout />}>
             <Route path='/dashboard' element={<DashboardPage/>}  />
-            <Route path='/tasks' element={<TasksPage/>}  />
+            <Route path='/quests' element={<TasksPage/>}  />
             <Route path='/timeline' element={<TimelinePage/>}  />
             <Route path='/profile' element={<ProfilePage/>}  />
 

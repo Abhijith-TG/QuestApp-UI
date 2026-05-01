@@ -1,14 +1,15 @@
-import Header from './Header'
+import DashboardPage from '../pages/DashboardPage'
 import Sidebar from './Sidebar'
 
 
 function Layout({children}:any) {
   return (
     <div>
-        <Header></Header>
-        <div className='flex' >
+        <div className='flex gap-5' >
         <Sidebar/>
+        <div className='flex-1 z-40'>
         {children}
+        </div>
         </div>
     </div>
   )
